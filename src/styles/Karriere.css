@@ -1,0 +1,82 @@
+.Karriere {
+  top: 5vh;
+  width: 5%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1;
+  background: white;
+}
+.Karriere .menuTitle {
+  font-size: 60rem;
+}
+
+.menuList {
+  height: auto;
+  display: grid;
+  gap: 10vh;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* MENU ITEM STYLING */
+
+.menuItem {
+  width: 500px;
+  text-align: center;
+  height: auto;
+  margin: 20px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+.menuItem:hover {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+.menuItem div {
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mantine-11qulmq {
+  color: #228be6;
+  font-weight: 600;
+  background-color: rgba(231, 245, 255, 1);
+  width: 100%;
+  height: 36px;
+  margin-top: 2vh;
+}
+
+.menuItem h1,
+.menuItem p {
+  margin-left: 20px;
+  font-family: 'poppins !important';
+}
+
+@media only screen and (max-width: 1300px) {
+  .menuList {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .menuList {
+    grid-template-columns: 1fr;
+  }
+  .Karriere {
+    margin: 10vh 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Karriere .menuTitle {
+    font-size: 60px;
+  }
+}

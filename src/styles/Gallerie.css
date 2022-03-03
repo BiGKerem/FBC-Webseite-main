@@ -1,0 +1,84 @@
+.Paper {
+  text-align: center;
+  width: 100%;
+}
+.PaperImage {
+  z-index: 0;
+}
+
+.Carousel {
+  height: 100vh;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+.Gallerie {
+  top: 8vh;
+  position: relative;
+  text-align: center;
+}
+
+#myVideo {
+  z-index: 0;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.GallerieBackground1::before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0.3) 100%
+  );
+}
+
+.GallerieHeader {
+  color: #fff !important;
+  height: auto !important;
+  font-size: 3rem;
+  width: fit-content;
+  margin: auto;
+  text-shadow: 0px 0px 10px rgb(0 0 0 / 61%);
+  font-family: "poppins";
+}
+
+.GallerieHeader2 {
+  color: #fff !important;
+  height: auto !important;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  width: fit-content;
+  margin: auto;
+  text-shadow: 0px 0px 10px rgb(0 0 0 / 61%);
+  font-family: "poppins";
+}
+
+.Trennlinie {
+  width: 15%;
+  margin-top: 1rem;
+  height: 0.4rem;
+  border: none;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 61%);
+}
+
+.GallerieImage {
+  height: 50vh;
+}
+
+.slick-dots li button {
+  height: 0.4rem !important;
+}
+
+#Seite1 {
+  text-align: center;
+}

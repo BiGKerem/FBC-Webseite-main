@@ -1,0 +1,48 @@
+#Partner {
+  height: auto;
+  background-color: white;
+  z-index: 1;
+  text-align: center;
+  font-size: 1rem;
+  padding: 8vh 0;
+  display: flex;
+  gap: 1vh;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#PartnerBeschreibung1 {
+  width: 30%;
+  text-align: left;
+  margin: 0 auto;
+}
+#PartnerBeschreibung1 h3 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+#PartnerBeschreibung2 {
+  width: 30%;
+  text-align: left;
+  margin: 0 auto;
+}
+
+#PartnerBeschreibung2 h3 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+#PartnerBeschreibung3 {
+  width: 50%;
+  text-align: left;
+  margin: 0 auto;
+}
+#PartnerBeschreibung3 h3 {
+  text-align: center;
+  font-size: 2rem;
+}
+#ImageBoxPartner {
+  display: flex;
+  gap: 0.4vh;
+  flex-wrap: wrap;
+}

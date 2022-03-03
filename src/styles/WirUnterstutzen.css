@@ -1,0 +1,18 @@
+#WirUnterstutzen {
+  height: auto;
+  background-color: white;
+  z-index: 1;
+  text-align: center;
+  font-size: 1rem;
+  padding: 8vh 0;
+}
+
+#Caritas {
+  font-size: 2.5rem;
+}
+
+.Blockquote {
+  width: 30%;
+  margin: 4vh auto !important;
+  background-color: whitesmoke;
+}

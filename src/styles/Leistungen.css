@@ -1,0 +1,29 @@
+#Leistungen {
+  height: auto;
+  background-color: white;
+  z-index: 1;
+  text-align: center;
+  font-size: 1rem;
+  padding: 8vh 0;
+  display: flex;
+  gap: 10vh;
+  justify-content: center;
+}
+
+#LeistungenBeschreibung1 {
+  width: 30%;
+  text-align: left;
+}
+
+#LeistungenBeschreibung2 {
+  width: 30%;
+  text-align: left;
+}
+#LeistungenBeschreibung1 h3 {
+  text-align: center;
+  font-size: 2rem;
+}
+#LeistungenBeschreibung2 h3 {
+  text-align: center;
+  font-size: 2rem;
+}

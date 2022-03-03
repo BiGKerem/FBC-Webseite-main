@@ -1,0 +1,79 @@
+.Team {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding-top: 8vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1;
+  background: white;
+  font-family: 'poppins !important';
+}
+.Team .teamTitle {
+  font-size: 60px;
+}
+
+.teamList {
+  height: auto;
+  display: grid;
+  gap: 10vh;
+  grid-template-columns: 1fr 1fr;
+}
+
+.GallerieBackground1 ul {
+  display: none !important;
+}
+/* team ITEM STYLING */
+
+.teamItem {
+  width: 500px;
+  text-align: center;
+  height: auto;
+  margin: 20px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+.teamItem:hover {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+.teamItem div {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 160px;
+  background-size: contain;
+}
+
+.teamItem h1,
+.teamItem p {
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 1300px) {
+  .teamList {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .teamList {
+    grid-template-columns: 1fr;
+  }
+  .Karriere {
+    margin: 10vh 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Karriere .teamTitle {
+    font-size: 60px;
+  }
+}
